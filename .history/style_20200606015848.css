@@ -141,13 +141,9 @@ h3 {
   height: auto;
 }
 
-.dashboard .status-color {
-  padding: 32px;
+.status-color {
+  padding: 0px 25px;
 }
-
-/* .dashboard .status {
-  padding: 0px 15px;
-} */
 
 .dashboard .status.status-info {
   border-bottom-color: #36b9cc;

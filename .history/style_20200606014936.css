@@ -104,17 +104,6 @@ h2 {
   font-size: 23px;
 }
 
-h3 {
-  font-size: 22px;
-}
-
-.dashboard h3 {
-  font-weight: 600;
-  margin-bottom: 23px;
-  text-align: center;
-  color: white;
-}
-
 .dashboard .container {
   /* position: absolute; */
   width: 1072px;
@@ -141,14 +130,6 @@ h3 {
   height: auto;
 }
 
-.dashboard .status-color {
-  padding: 32px;
-}
-
-/* .dashboard .status {
-  padding: 0px 15px;
-} */
-
 .dashboard .status.status-info {
   border-bottom-color: #36b9cc;
 }
@@ -173,7 +154,7 @@ h3 {
   color: #e74a3b;
 }
 
-#totalrecovered {
+#totalrecoverd {
   color: #1cc88a;
 }
 

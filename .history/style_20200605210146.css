@@ -8,22 +8,21 @@ body {
 }
 
 /* navbar css */
-/* this css is to put the navbar at same place  */
-.fix {
+
+/* .fix {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  /* z-index: 1030; */
   background-color: #111120;
   padding: 40px 0px;
-}
+} */
 
-/* to change the content of navbar when hover   */
 .navbar .navbar-nav .nav-item a.nav-link:hover {
   color: hotpink;
 }
 
-/* this hover is for nav-item  */
 .navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover {
   background-color: hotpink;
 }
@@ -42,7 +41,7 @@ body {
   color: #939fb2;
   font-weight: 600;
 }
-/* this hover is for dropdown-menu */
+
 .navbar .navbar-nav .nav-item:hover .dropdown-menu {
   display: block;
 }
@@ -100,23 +99,8 @@ h1 {
   margin-bottom: 16px;
 }
 
-h2 {
-  font-size: 23px;
-}
-
-h3 {
-  font-size: 22px;
-}
-
-.dashboard h3 {
-  font-weight: 600;
-  margin-bottom: 23px;
-  text-align: center;
-  color: white;
-}
-
 .dashboard .container {
-  /* position: absolute; */
+  position: absolute;
   width: 1072px;
   background-color: #19192c;
   padding: 48px;
@@ -129,56 +113,6 @@ h3 {
   width: 245px;
   background-color: #111120;
   border: 1px solid #001940;
-}
-
-.dashboard .status-color img {
-  position: absolute;
-  top: 0%;
-  left: 70%;
-  right: 0%;
-  width: 55px;
-  max-width: 100%;
-  height: auto;
-}
-
-.dashboard .status-color {
-  padding: 32px;
-}
-
-/* .dashboard .status {
-  padding: 0px 15px;
-} */
-
-.dashboard .status.status-info {
-  border-bottom-color: #36b9cc;
-}
-
-.dashboard .status.status-danger {
-  border-bottom-color: #e74a3b;
-}
-
-.dashboard .status.status-success {
-  border-bottom-color: #1cc88a;
-}
-
-.dashboard .status.status-warning {
-  border-bottom-color: #f6c23e;
-}
-
-#totalcases {
-  color: #36b9cc;
-}
-
-#totaldeaths {
-  color: #e74a3b;
-}
-
-#totalrecovered {
-  color: #1cc88a;
-}
-
-#newcases {
-  color: #f6c23e;
 }
 
 @font-face {

@@ -100,21 +100,6 @@ h1 {
   margin-bottom: 16px;
 }
 
-h2 {
-  font-size: 23px;
-}
-
-h3 {
-  font-size: 22px;
-}
-
-.dashboard h3 {
-  font-weight: 600;
-  margin-bottom: 23px;
-  text-align: center;
-  color: white;
-}
-
 .dashboard .container {
   /* position: absolute; */
   width: 1072px;
@@ -141,44 +126,20 @@ h3 {
   height: auto;
 }
 
-.dashboard .status-color {
-  padding: 32px;
-}
-
-/* .dashboard .status {
-  padding: 0px 15px;
-} */
-
-.dashboard .status.status-info {
+.dashboard .status-info {
   border-bottom-color: #36b9cc;
 }
 
-.dashboard .status.status-danger {
+.dashboard .status-danger .status.color {
   border-bottom-color: #e74a3b;
 }
 
-.dashboard .status.status-success {
+.dashboard .status-success .status.color {
   border-bottom-color: #1cc88a;
 }
 
-.dashboard .status.status-warning {
+.dashboard .status-warning .status.color {
   border-bottom-color: #f6c23e;
-}
-
-#totalcases {
-  color: #36b9cc;
-}
-
-#totaldeaths {
-  color: #e74a3b;
-}
-
-#totalrecovered {
-  color: #1cc88a;
-}
-
-#newcases {
-  color: #f6c23e;
 }
 
 @font-face {
