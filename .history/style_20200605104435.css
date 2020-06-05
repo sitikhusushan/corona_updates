@@ -1,0 +1,156 @@
+body {
+  background-color: #111120;
+  color: #939fb2;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.fix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  /* z-index: 1030; */
+  background-color: #111120;
+  padding: 40px 0px;
+}
+
+a.nav-link:hover {
+  color: hotpink;
+}
+
+.nav-item .nav-link a {
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+nav .container .logo img {
+  max-width: 170px;
+}
+
+.banner {
+  height: 100%;
+  text-align: center;
+  padding-top: 180px;
+}
+
+h1 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+.btn-pink {
+  color: white;
+  background-color: #ff4f7b;
+  border-color: #ff4f7b;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 0px;
+}
+
+.btn-primary {
+  margin-right: 30px;
+}
+
+.pre {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 2.5px;
+  display: inline-block;
+  border-radius: 800px;
+  border: #232341 solid;
+  background-color: #232341;
+  color: #0d6bff;
+  padding: 10px 32px;
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Black.woff2") format("woff2"),
+    url("font/Barlow-Black.woff") format("woff"),
+    url("font/Barlow-Black.svg#Barlow-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Light.woff2") format("woff2"),
+    url("font/Barlow-Light.woff") format("woff"),
+    url("font/Barlow-Light.svg#Barlow-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Medium.woff2") format("woff2"),
+    url("font/Barlow-Medium.woff") format("woff"),
+    url("font/Barlow-Medium.svg#Barlow-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-ExtraBold.woff2") format("woff2"),
+    url("font/Barlow-ExtraBold.woff") format("woff"),
+    url("font/Barlow-ExtraBold.svg#Barlow-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-SemiBold.woff2") format("woff2"),
+    url("font/Barlow-SemiBold.woff") format("woff"),
+    url("font/Barlow-SemiBold.svg#Barlow-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Regular.woff2") format("woff2"),
+    url("font/Barlow-Regular.woff") format("woff"),
+    url("font/Barlow-Regular.svg#Barlow-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Thin.woff2") format("woff2"),
+    url("font/Barlow-Thin.woff") format("woff"),
+    url("font/Barlow-Thin.svg#Barlow-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Bold.woff2") format("woff2"),
+    url("font/Barlow-Bold.woff") format("woff"),
+    url("font/Barlow-Bold.svg#Barlow-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-ExtraLight.woff2") format("woff2"),
+    url("font/Barlow-ExtraLight.woff") format("woff"),
+    url("font/Barlow-ExtraLight.svg#Barlow-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
