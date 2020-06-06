@@ -16,7 +16,6 @@ body {
   left: 0;
   background-color: #111120;
   padding: 40px 0px;
-  z-index: 20;
 }
 
 /* to change the content of navbar when hover   */
@@ -33,7 +32,10 @@ body {
   display: none;
   position: absolute;
   background-color: #111120;
-  /* z-index: 1; */
+  color: #939fb2;
+  font-weight: 700;
+  font-size: 15px;
+  z-index: 1;
 }
 
 .dropdown-menu .dropdown-item {
@@ -120,7 +122,7 @@ h3 {
 }
 
 .dashboard .container {
-  position: relative;
+  /* position: absolute; */
   width: 1072px;
   background-color: #19192c;
   padding: 48px;
@@ -133,11 +135,10 @@ h3 {
   width: 245px;
   background-color: #111120;
   border: 1px solid #001940;
-  z-index: 1;
 }
 
 /* here css for image  */
-.dashboard .status img {
+.dashboard .status-color img {
   position: absolute;
   top: 10%;
   left: 70%;
@@ -149,17 +150,14 @@ h3 {
     brightness(92%) contrast(91%);
 }
 
-/* hover for image of dashboard is here */
-/* .dahsboard .status img:hover {
-  filter: invert(99%) sepia(9%) saturate(793%) hue-rotate(173deg)
-    brightness(98%) contrast(99%);
-} */
-
 .dashboard .status-color {
   padding: 32px;
 }
 
-/* css for bottom border color is here */
+/* .dashboard .status {
+  padding: 0px 15px;
+} */
+
 .dashboard .status.status-info {
   border-bottom-color: #36b9cc;
 }
@@ -190,51 +188,6 @@ h3 {
 
 #newcases {
   color: #f6c23e;
-}
-
-/* .dashboard .container .situation {
-  position: absolute;
-  top: 90%;
-  left: 40%;
-  right: 0%;
-} */
-
-.dashboard .situation {
-  text-align: center;
-  margin: 0px;
-  margin-top: 48px;
-  text-decoration: underline;
-  font-weight: 500;
-  padding: 2px;
-}
-
-.dashboard p.situation a:hover {
-  text-decoration: none;
-  color: hotpink;
-}
-
-/* about css starts from here  */
-
-.about {
-  background-color: #131327;
-  padding-top: 120px;
-}
-
-.about h3 {
-  font-size: 0.75rem;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 2.5px;
-  display: inline-block;
-  border-radius: 800px;
-  border: #232341 solid;
-  background-color: #232341;
-  color: #0d6bff;
-  padding: 10px 32px;
-  margin-bottom: 16px;
-}
-.about p {
-  color: #939fb2;
 }
 
 @font-face {

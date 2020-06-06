@@ -214,25 +214,6 @@ h3 {
 }
 
 /* about css starts from here  */
-
-.about {
-  background-color: #131327;
-  padding-top: 120px;
-}
-
-.about h3 {
-  font-size: 0.75rem;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 2.5px;
-  display: inline-block;
-  border-radius: 800px;
-  border: #232341 solid;
-  background-color: #232341;
-  color: #0d6bff;
-  padding: 10px 32px;
-  margin-bottom: 16px;
-}
 .about p {
   color: #939fb2;
 }
