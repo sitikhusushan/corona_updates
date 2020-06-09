@@ -275,10 +275,6 @@ nav .container .logo img {
   text-align: center;
 }
 
-.transmission p {
-  text-align: center;
-}
-
 .transmission .row > div {
   padding: 30px 25px;
   margin-top: 30px;
@@ -314,11 +310,6 @@ nav .container .logo img {
 .transmission p.check {
   text-align: center;
   text-decoration: underline;
-}
-
-.transmission p.check a:hover {
-  text-decoration: none;
-  color: hotpink;
 }
 
 @font-face {

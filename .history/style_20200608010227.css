@@ -253,7 +253,6 @@ nav .container .logo img {
 } */
 
 .transmission h3 {
-  position: relative;
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 1;
@@ -265,18 +264,6 @@ nav .container .logo img {
   color: #0d6bff;
   padding: 10px 32px;
   margin-bottom: 16px;
-  text-align: center;
-}
-
-.transmission h1 {
-  font-size: 2.25rem;
-  font-weight: 600;
-  color: white;
-  text-align: center;
-}
-
-.transmission p {
-  text-align: center;
 }
 
 .transmission .row > div {
@@ -309,16 +296,6 @@ nav .container .logo img {
   font-size: 22px;
   text-align: center;
   color: white;
-}
-
-.transmission p.check {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.transmission p.check a:hover {
-  text-decoration: none;
-  color: hotpink;
 }
 
 @font-face {

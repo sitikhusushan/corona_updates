@@ -62,7 +62,7 @@ nav .container .logo img {
   padding-top: 180px;
 }
 
-.banner h1 {
+h1 {
   color: white;
   font-weight: 600;
   font-size: 48px;
@@ -215,7 +215,6 @@ nav .container .logo img {
 .about {
   background-color: #131327;
   padding-top: 120px;
-  margin-bottom: 150px;
 }
 
 .about h3 {
@@ -241,42 +240,14 @@ nav .container .logo img {
 }
 
 /* transmission of css starts from here */
-/* .transmission h3 {
-  display: inline-block;
+.transmission h3 {
+  position: relative;
   color: #0d6bff;
   border: #232341 solid;
   border-radius: 500px;
   font-weight: 500;
   font-size: 0.75rem;
   line-height: 1;
-  letter-spacing: 2.5px;
-} */
-
-.transmission h3 {
-  position: relative;
-  font-size: 0.75rem;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 2.5px;
-  display: inline-block;
-  border-radius: 800px;
-  border: #232341 solid;
-  background-color: #232341;
-  color: #0d6bff;
-  padding: 10px 32px;
-  margin-bottom: 16px;
-  text-align: center;
-}
-
-.transmission h1 {
-  font-size: 2.25rem;
-  font-weight: 600;
-  color: white;
-  text-align: center;
-}
-
-.transmission p {
-  text-align: center;
 }
 
 .transmission .row > div {
@@ -305,20 +276,11 @@ nav .container .logo img {
 }
 
 .fluid p {
+  position: absolute;
   font-weight: 500;
   font-size: 22px;
   text-align: center;
   color: white;
-}
-
-.transmission p.check {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.transmission p.check a:hover {
-  text-decoration: none;
-  color: hotpink;
 }
 
 @font-face {

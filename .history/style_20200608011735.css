@@ -316,11 +316,6 @@ nav .container .logo img {
   text-decoration: underline;
 }
 
-.transmission p.check a:hover {
-  text-decoration: none;
-  color: hotpink;
-}
-
 @font-face {
   font-family: "Barlow";
   src: url("font/Barlow-Black.woff2") format("woff2"),
