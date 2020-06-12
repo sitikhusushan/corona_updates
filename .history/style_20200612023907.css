@@ -79,7 +79,7 @@ header .onlinehelp span {
   margin-bottom: 28px;
 }
 
-/* css for covid-19 prevention & symptoms */
+/* css for covid-19 prevention & symptoms from banner part */
 .btn-pink {
   color: white;
   background-color: #ff4f7b;
@@ -200,7 +200,7 @@ header .onlinehelp span {
   color: #f6c23e;
 }
 
-.situation {
+.dashboard .situation {
   text-align: center;
   margin: 0px;
   margin-top: 48px;
@@ -209,30 +209,17 @@ header .onlinehelp span {
   padding: 2px;
 }
 
-p.situation a:hover {
+.dashboard p.situation a:hover {
   text-decoration: none;
   color: hotpink;
 }
 
 /* about css starts from here  */
 
-.sick {
-  color: white;
-  font-size: 36px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.bg-color {
+.about {
   background-color: #131327;
-}
-
-.top {
   padding-top: 120px;
-}
-
-.pb-both {
-  padding: 120px 0px;
+  margin-bottom: 150px;
 }
 
 /* .about h3 {
@@ -258,12 +245,6 @@ p.situation a:hover {
 }
 
 /* transmission of css starts from here */
-
-.both {
-  margin: 0px 150px;
-  padding: 0px 15px;
-  text-align: center;
-}
 
 /* .transmission .both p.subheading {
   position: relative;
@@ -320,7 +301,7 @@ p.situation a:hover {
   color: white;
 }
 
-/* .transmission p.check {
+.transmission p.check {
   text-align: center;
 }
 
@@ -332,7 +313,7 @@ p.situation a:hover {
 .transmission p.check a:hover {
   text-decoration: none;
   color: hotpink;
-} */
+}
 
 /* symptoms css starts from here */
 .symptoms img {

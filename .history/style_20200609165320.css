@@ -1,7 +1,6 @@
 body {
   background-color: #111120;
   font-family: "Barlow";
-  color: #939f9f;
 }
 
 .container {
@@ -55,15 +54,6 @@ nav .container .logo img {
   max-width: 170px;
 }
 
-header .onlinehelp .btn {
-  padding: 12px 32px;
-  font-weight: 500;
-}
-
-header .onlinehelp span {
-  padding-left: 5px;
-}
-
 /* banner css starts from here  */
 
 .banner {
@@ -111,7 +101,6 @@ header .onlinehelp span {
   color: #0d6bff;
   padding: 10px 32px;
   margin-bottom: 16px;
-  text-transform: uppercase;
 }
 
 /* css for dashboard starts from here  */
@@ -200,7 +189,14 @@ header .onlinehelp span {
   color: #f6c23e;
 }
 
-.situation {
+/* .dashboard .container .situation {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  right: 0%;
+} */
+
+.dashboard .situation {
   text-align: center;
   margin: 0px;
   margin-top: 48px;
@@ -209,33 +205,20 @@ header .onlinehelp span {
   padding: 2px;
 }
 
-p.situation a:hover {
+.dashboard p.situation a:hover {
   text-decoration: none;
   color: hotpink;
 }
 
 /* about css starts from here  */
 
-.sick {
-  color: white;
-  font-size: 36px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.bg-color {
+.about {
   background-color: #131327;
-}
-
-.top {
   padding-top: 120px;
+  margin-bottom: 150px;
 }
 
-.pb-both {
-  padding: 120px 0px;
-}
-
-/* .about h3 {
+.about h3 {
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 1;
@@ -247,7 +230,7 @@ p.situation a:hover {
   color: #0d6bff;
   padding: 10px 32px;
   margin-bottom: 16px;
-} */
+}
 .about p {
   color: #939fb2;
 }
@@ -258,15 +241,22 @@ p.situation a:hover {
 }
 
 /* transmission of css starts from here */
+/* .transmission h3 {
+  display: inline-block;
+  color: #0d6bff;
+  border: #232341 solid;
+  border-radius: 500px;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: 2.5px;
+} */
 
-.both {
-  margin: 0px 150px;
-  padding: 0px 15px;
-  text-align: center;
+.transmission {
+  position: relative;
 }
 
-/* .transmission .both p.subheading {
-  position: relative;
+.transmission h3 {
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 1;
@@ -278,13 +268,17 @@ p.situation a:hover {
   color: #0d6bff;
   padding: 10px 32px;
   margin-bottom: 16px;
-  text-transform: uppercase;
-} */
+  text-align: center;
+}
 
 .transmission h1 {
   font-size: 2.25rem;
   font-weight: 600;
   color: white;
+  text-align: center;
+}
+
+.transmission p {
   text-align: center;
 }
 
@@ -313,15 +307,11 @@ p.situation a:hover {
   height: auto;
 }
 
-.fluid {
+.fluid p {
   font-weight: 500;
   font-size: 22px;
   text-align: center;
   color: white;
-}
-
-/* .transmission p.check {
-  text-align: center;
 }
 
 .transmission p.check a {
@@ -332,22 +322,6 @@ p.situation a:hover {
 .transmission p.check a:hover {
   text-decoration: none;
   color: hotpink;
-} */
-
-/* symptoms css starts from here */
-.symptoms img {
-  width: 150px;
-  height: 150px;
-}
-
-.symptoms .container > div {
-  text-align: center;
-}
-
-/* recent blogs css starts from here  */
-.news img {
-  width: 370px;
-  height: auto;
 }
 
 @font-face {

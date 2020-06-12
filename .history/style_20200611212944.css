@@ -111,7 +111,6 @@ header .onlinehelp span {
   color: #0d6bff;
   padding: 10px 32px;
   margin-bottom: 16px;
-  text-transform: uppercase;
 }
 
 /* css for dashboard starts from here  */
@@ -200,7 +199,14 @@ header .onlinehelp span {
   color: #f6c23e;
 }
 
-.situation {
+/* .dashboard .container .situation {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  right: 0%;
+} */
+
+.dashboard .situation {
   text-align: center;
   margin: 0px;
   margin-top: 48px;
@@ -209,33 +215,20 @@ header .onlinehelp span {
   padding: 2px;
 }
 
-p.situation a:hover {
+.dashboard p.situation a:hover {
   text-decoration: none;
   color: hotpink;
 }
 
 /* about css starts from here  */
 
-.sick {
-  color: white;
-  font-size: 36px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.bg-color {
+.about {
   background-color: #131327;
-}
-
-.top {
   padding-top: 120px;
+  margin-bottom: 150px;
 }
 
-.pb-both {
-  padding: 120px 0px;
-}
-
-/* .about h3 {
+.about h3 {
   font-size: 0.75rem;
   font-weight: 500;
   line-height: 1;
@@ -247,7 +240,7 @@ p.situation a:hover {
   color: #0d6bff;
   padding: 10px 32px;
   margin-bottom: 16px;
-} */
+}
 .about p {
   color: #939fb2;
 }
@@ -259,13 +252,13 @@ p.situation a:hover {
 
 /* transmission of css starts from here */
 
-.both {
+.transmission .both {
   margin: 0px 150px;
   padding: 0px 15px;
   text-align: center;
 }
 
-/* .transmission .both p.subheading {
+.transmission .both p.subheading {
   position: relative;
   font-size: 0.75rem;
   font-weight: 500;
@@ -279,7 +272,7 @@ p.situation a:hover {
   padding: 10px 32px;
   margin-bottom: 16px;
   text-transform: uppercase;
-} */
+}
 
 .transmission h1 {
   font-size: 2.25rem;
@@ -320,7 +313,7 @@ p.situation a:hover {
   color: white;
 }
 
-/* .transmission p.check {
+.transmission p.check {
   text-align: center;
 }
 
@@ -332,7 +325,7 @@ p.situation a:hover {
 .transmission p.check a:hover {
   text-decoration: none;
   color: hotpink;
-} */
+}
 
 /* symptoms css starts from here */
 .symptoms img {
