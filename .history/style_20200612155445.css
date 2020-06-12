@@ -239,20 +239,8 @@ th {
   color: white;
   background-color: #000000;
   position: sticky;
-  top: 21%;
+  top: 15%;
   box-shadow: 0 2px 2px -1px grey;
-}
-
-td#hov i:hover {
-  color: red;
-}
-
-i:focus:before{
-  content:"\f004" ;
-}
-
-td:nth-child(none){
-  background-color: white;
 }
 
 td:nth-child(3) {

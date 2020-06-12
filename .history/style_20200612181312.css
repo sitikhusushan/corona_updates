@@ -248,7 +248,7 @@ td#hov i:hover {
 }
 
 i:focus:before{
-  content:"\f004" ;
+  content:"'\f004" ;
 }
 
 td:nth-child(none){

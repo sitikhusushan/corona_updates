@@ -247,10 +247,6 @@ td#hov i:hover {
   color: red;
 }
 
-i:focus:before{
-  content:"\f004" ;
-}
-
 td:nth-child(none){
   background-color: white;
 }
