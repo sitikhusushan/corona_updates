@@ -444,7 +444,6 @@ footer h4{
 }
 
 footer ul li a{
-  display: block;
   color: #939fb2;
   padding: 4px 0px;
   font-size: 14px;
@@ -456,27 +455,6 @@ footer ul li a{
 footer ul li a:hover {
   text-decoration: none;
   color: hotpink;
-}
-
-.copyright {
-  background-color:#19192c;
-  padding: 48px 0px;
-
-}
-
-.copyright .copy{
-  text-align: center;
-}
-
-.copyright h4{
-  color: white;
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-
-.copyright p{
-  font-size: 14px ;
-  margin: 0px;
 }
 
 @font-face {

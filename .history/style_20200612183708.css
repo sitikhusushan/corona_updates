@@ -271,8 +271,6 @@ tr:nth-child(odd) {
   background-color: #111120;
 }
 
-
-
 /* about css starts from here  */
 
 .sick {
@@ -409,11 +407,6 @@ tr:nth-child(odd) {
   height: auto;
 }
 
-/* footer starts from here */
-footer{
-  padding: 80px 0px;
-}
-
 footer ul{
  list-style: none;
  text-align: left;
@@ -423,7 +416,6 @@ footer ul{
 
 footer img{
   width: 135px;
-  margin-bottom:24px ;
 }
 
 footer h3{
@@ -431,52 +423,6 @@ footer h3{
   margin-bottom: 24px;
   font-size: 21px;
   color: white;
-}
-
-footer i{
-padding: 5px;
-}
-
-footer h4{
-  font-size: 18px;
-  margin-bottom: 8px;
-  color: white;
-}
-
-footer ul li a{
-  display: block;
-  color: #939fb2;
-  padding: 4px 0px;
-  font-size: 14px;
-}
- footer p{
-   color: #939fb2;
- }
-
-footer ul li a:hover {
-  text-decoration: none;
-  color: hotpink;
-}
-
-.copyright {
-  background-color:#19192c;
-  padding: 48px 0px;
-
-}
-
-.copyright .copy{
-  text-align: center;
-}
-
-.copyright h4{
-  color: white;
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-
-.copyright p{
-  font-size: 14px ;
-  margin: 0px;
 }
 
 @font-face {

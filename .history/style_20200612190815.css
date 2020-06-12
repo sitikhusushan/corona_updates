@@ -458,27 +458,6 @@ footer ul li a:hover {
   color: hotpink;
 }
 
-.copyright {
-  background-color:#19192c;
-  padding: 48px 0px;
-
-}
-
-.copyright .copy{
-  text-align: center;
-}
-
-.copyright h4{
-  color: white;
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-
-.copyright p{
-  font-size: 14px ;
-  margin: 0px;
-}
-
 @font-face {
   font-family: "Barlow";
   src: url("font/Barlow-Black.woff2") format("woff2"),
