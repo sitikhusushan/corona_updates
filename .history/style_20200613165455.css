@@ -1,0 +1,565 @@
+body {
+  background-color: #111120;
+  font-family: "Barlow";
+  color: #939f9f;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* navbar css */
+/* this css is to put the navbar at same place  */
+.fix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #111120;
+  padding: 40px 0px;
+  z-index: 20;
+}
+
+/* to change the content of navbar when hover   */
+.navbar .navbar-nav .nav-item a.nav-link:hover {
+  color: hotpink;
+}
+
+/* this hover is for nav-item  */
+.navbar .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover {
+  background-color: hotpink;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #111120;
+  /* z-index: 1; */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #939fb2;
+  font-weight: 600;
+}
+/* this hover is for dropdown-menu */
+.navbar .navbar-nav .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar .nav-item a.nav-link {
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+nav .container .logo img {
+  max-width: 170px;
+}
+
+header .onlinehelp .btn {
+  padding: 12px 32px;
+  font-weight: 500;
+}
+
+header .onlinehelp span {
+  padding-left: 5px;
+}
+
+/* banner css starts from here  */
+
+.banner {
+  height: 100%;
+  text-align: center;
+  padding-top: 180px;
+}
+
+.banner h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 28px;
+}
+
+/* css for covid-19 prevention & symptoms */
+.btn-pink {
+  color: white;
+  background-color: #ff4f7b;
+  border-color: #ff4f7b;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0px;
+}
+
+.btn-primary {
+  color: white;
+  margin-right: 30px;
+}
+
+/* css for paragraph of banner  */
+.pre {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 2.5px;
+  display: inline-block;
+  border-radius: 800px;
+  border: #232341 solid;
+  background-color: #232341;
+  color: #0d6bff;
+  padding: 10px 32px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+/* css for dashboard starts from here  */
+.dashboard h2 {
+  font-size: 23px;
+}
+
+.dashboard h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 23px;
+  text-align: center;
+  color: white;
+}
+
+.dashboard .container {
+  position: relative;
+  width: 1072px;
+  background-color: #19192c;
+  padding: 48px;
+  border: 1px solid #0d6bff;
+}
+
+.dashboard .row > div {
+  position: relative;
+  display: block;
+  width: 245px;
+  background-color: #111120;
+  border: 1px solid #001940;
+  z-index: 1;
+}
+
+/* here css for image  */
+.dashboard .status img {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  right: 0%;
+  width: 55px;
+  max-width: 100%;
+  height: auto;
+  filter: invert(7%) sepia(7%) saturate(6094%) hue-rotate(203deg)
+    brightness(92%) contrast(91%);
+}
+
+/* hover for image of dashboard is here */
+/* .dahsboard .status img:hover {
+  filter: invert(99%) sepia(9%) saturate(793%) hue-rotate(173deg)
+    brightness(98%) contrast(99%);
+} */
+
+.dashboard .status-color {
+  padding: 32px;
+}
+
+/* css for bottom border color is here */
+.dashboard .status.status-info {
+  border-bottom-color: #36b9cc;
+}
+
+.dashboard .status.status-danger {
+  border-bottom-color: #e74a3b;
+}
+
+.dashboard .status.status-success {
+  border-bottom-color: #1cc88a;
+}
+
+.dashboard .status.status-warning {
+  border-bottom-color: #f6c23e;
+}
+
+#totalcases {
+  color: #36b9cc;
+}
+
+#totaldeaths {
+  color: #e74a3b;
+}
+
+#totalrecovered {
+  color: #1cc88a;
+}
+
+#newcases {
+  color: #f6c23e;
+}
+
+.situation {
+  text-align: center;
+  margin: 0px;
+  margin-top: 48px;
+  text-decoration: underline;
+  font-weight: 500;
+  padding: 2px;
+}
+
+p.situation a:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+/* table css starts from here */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  font-weight: bold;
+}
+
+th {
+  color: white;
+  background-color: #000000;
+  position: sticky;
+  top: 21%;
+  box-shadow: 0 2px 2px -1px grey;
+}
+
+td#hov i:hover {
+  color: red;
+}
+
+i:focus:before{
+  content:"\f004" ;
+}
+
+td:nth-child(none){
+  background-color: white;
+}
+
+td:nth-child(3) {
+  background-color: #ffeeaa;
+  color: #000000;
+}
+td:nth-child(5) {
+  background-color: red;
+}
+
+tr:nth-child(even) {
+  background-color: #19192c;
+}
+
+tr:nth-child(odd) {
+  background-color: #111120;
+}
+
+
+
+/* about css starts from here  */
+
+.sick {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.bg-color {
+  background-color: #131327;
+}
+
+.top {
+  padding-top: 120px;
+}
+
+.pb-both {
+  padding: 120px 0px;
+}
+
+/* .about h3 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 2.5px;
+  display: inline-block;
+  border-radius: 800px;
+  border: #232341 solid;
+  background-color: #232341;
+  color: #0d6bff;
+  padding: 10px 32px;
+  margin-bottom: 16px;
+} */
+.about p {
+  color: #939fb2;
+}
+
+.about .container img.women {
+  width: 470px;
+  height: auto;
+}
+
+/* transmission of css starts from here */
+
+.main-title .title {
+    color: white;
+  font-size: 36px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  margin: 0px 150px;
+  padding: 0px 15px;
+  text-align: center;
+}
+
+/* .transmission .both p.subheading {
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 2.5px;
+  display: inline-block;
+  border-radius: 800px;
+  border: #232341 solid;
+  background-color: #232341;
+  color: #0d6bff;
+  padding: 10px 32px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+} */
+
+.transmission h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.transmission .row > div {
+  padding: 30px 25px;
+  margin-top: 30px;
+}
+
+.fluid img.img-fluid {
+  width: 187px;
+  height: auto;
+}
+
+.fluid img.img-fluid2 {
+  width: 150px;
+  height: auto;
+}
+
+.fluid img.img-fluid3 {
+  width: 170px;
+  height: auto;
+}
+
+.fluid img.img-fluid4 {
+  width: 189px;
+  height: auto;
+}
+
+.fluid {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+}
+
+/* .transmission p.check {
+  text-align: center;
+}
+
+.transmission p.check a {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.transmission p.check a:hover {
+  text-decoration: none;
+  color: hotpink;
+} */
+
+/* symptoms css starts from here */
+.symptoms img {
+  width: 150px;
+  height: 150px;
+}
+
+.symptoms .container > div {
+  text-align: center;
+}
+
+/* recent blogs css starts from here  */
+.news img {
+  width: 370px;
+  height: auto;
+}
+
+/* footer starts from here */
+footer .subfooter{
+  padding: 80px 0px;
+}
+
+footer .subfooter ul{
+ list-style: none;
+ text-align: left;
+ margin: 0px;
+ padding: 0px;
+}
+
+footer .subfooter img{
+  width: 135px;
+  margin-bottom:24px ;
+}
+
+footer .subfooter h3{
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 21px;
+  color: white;
+}
+
+footer .subfooter i{
+padding: 5px;
+}
+
+footer .subfooter h4{
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+footer .subfooter ul li a{
+  display: block;
+  color: #939fb2;
+  padding: 4px 0px;
+  font-size: 14px;
+}
+ footer .subfooter p{
+   color: #939fb2;
+ }
+
+footer .subfooter ul li a:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+.copyright {
+  background-color:#19192c;
+  padding: 48px 0px;
+
+}
+
+.copyright .copy{
+  text-align: center;
+}
+
+.copyright h4{
+  color: white;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.copyright p{
+  font-size: 14px ;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Black.woff2") format("woff2"),
+    url("font/Barlow-Black.woff") format("woff"),
+    url("font/Barlow-Black.svg#Barlow-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Light.woff2") format("woff2"),
+    url("font/Barlow-Light.woff") format("woff"),
+    url("font/Barlow-Light.svg#Barlow-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Medium.woff2") format("woff2"),
+    url("font/Barlow-Medium.woff") format("woff"),
+    url("font/Barlow-Medium.svg#Barlow-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-ExtraBold.woff2") format("woff2"),
+    url("font/Barlow-ExtraBold.woff") format("woff"),
+    url("font/Barlow-ExtraBold.svg#Barlow-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-SemiBold.woff2") format("woff2"),
+    url("font/Barlow-SemiBold.woff") format("woff"),
+    url("font/Barlow-SemiBold.svg#Barlow-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Regular.woff2") format("woff2"),
+    url("font/Barlow-Regular.woff") format("woff"),
+    url("font/Barlow-Regular.svg#Barlow-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Thin.woff2") format("woff2"),
+    url("font/Barlow-Thin.woff") format("woff"),
+    url("font/Barlow-Thin.svg#Barlow-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-Bold.woff2") format("woff2"),
+    url("font/Barlow-Bold.woff") format("woff"),
+    url("font/Barlow-Bold.svg#Barlow-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("font/Barlow-ExtraLight.woff2") format("woff2"),
+    url("font/Barlow-ExtraLight.woff") format("woff"),
+    url("font/Barlow-ExtraLight.svg#Barlow-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
