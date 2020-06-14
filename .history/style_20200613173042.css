@@ -4,6 +4,9 @@ body {
   color: #939f9f;
 }
 
+*{
+  box-sizing: border-box;
+}
 
 .container {
   max-width: 1200px;
@@ -405,13 +408,10 @@ tr:nth-child(odd) {
 }
 
 /* css for faq starts from here  */
-.faq .container h2 button.btn {
-   position: relative; 
+.faq .container .btn {
   display: block;
- margin: 0px;
- padding: 0px;
+ position: relative; 
 }
-
 
 
 /* recent blogs css starts from here  */

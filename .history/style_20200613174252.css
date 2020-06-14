@@ -405,13 +405,19 @@ tr:nth-child(odd) {
 }
 
 /* css for faq starts from here  */
-.faq .container h2 button.btn {
+.faq .container button.btn {
    position: relative; 
   display: block;
  margin: 0px;
  padding: 0px;
 }
 
+.faq .container h2 .btn i{
+  /* position: absolute; */
+  /* top: 0px; */
+  /* left: 0px; */
+  /* right: 0px; */
+}
 
 
 /* recent blogs css starts from here  */
